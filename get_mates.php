@@ -9,4 +9,3 @@ $Objserpent = new Serpent("vide");
 $mates = $Objserpent->getPotentialMates($race);
 
 echo json_encode($mates);
-?>
